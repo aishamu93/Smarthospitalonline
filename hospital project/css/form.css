@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+
+.back1{
+    background-color: #FFEEF7  ;
+    text-align:center;
+   
+   
+    height: 580px;
+    width: 1340px;
+    
+     
+}
+.pic1{
+    z-index: 0;
+    
+}
+div {
+   margin-left: 90px;
+    margin-top: 20px;
+}
+h1 {
+  font-family: verdana;
+  text-align: center;
+}
+em       { font-weight: bold;
+font-size: 13pt;
+ font-style: italic;
+
+                    color: black; } 
+p {
+
+  font-family: verdana;
+  font-size: 14px;
+}
+nav {
+      background-color: #FFEEF7 ;
+        line-height:41px;
+	padding: 5px;
+	text-align:center;
+	color:	#f26165;
+	font-weight: bold;
+	float: left;
+	position: relative;
+        width: 181.5px;
+        alignment-adjust: central;
+        margin-top: 0px;
+        
+       
+}
+
+
+nav:hover{
+    color: palevioletred;
+}
+nav ul {
+	display:none;
+	list-style:none;
+	margin:0;
+	padding:0;
+
+	
+}
+
+.menu{
+	float:left; width:190px; margin:0px;
+}
+ 	
+          a {
+    color: #f26165;
+}
+ .special { color: purple; }
+</style>
+</head>
+<body>
+
+
+</body>
+</html>

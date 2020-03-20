@@ -1,0 +1,112 @@
+<html>
+
+   <head>
+        <title>Appointment form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type ="text/css" media ="all">
+            @import url(../CSS/form.css);
+
+
+    <!--the beginning of the  header-->
+
+       
+        </style>
+   </head>
+            
+ <body class="back1">
+
+
+
+             </header>
+        <img class="pic1" src="../images/hospital.jpg" alt="logo" width="1340" height="270">
+            <!--no need for marquee in every page its just in the home page-->
+			
+                <hr>
+			 </header>
+			  <!--_______________________Start of menu____________________-->
+        <div class="menu">
+            <nav><a href="../html/index.html"> About As</a></nav>
+            <nav> <a href="../html/meeting.html"> Hospital stuff meeting </a></nav>
+            <nav><a href="../html/AppointmentForm.html"> Book your appointmeny</a></nav>
+            <nav><a href="../html/patient.html"> Patient table </a></nav>
+			<nav><a href="../html/WeeklyReport.html"> Last week report </a></nav>
+			<nav><a href="../html/AvilableOperation.html"> Avilable Operation </a></nav>
+
+
+        </div>
+
+            <!--_______________________End of menu____________________-->
+        <main>           
+
+
+      
+
+      <h1 class="special">Patients Personal details</h1>
+
+    <p><em>
+Fill the form below ndicaticating the appoitment type you need.
+	  We will get back soon to you for more updates.</em>
+      </p>
+
+<div>
+
+      <!-- turn autocomplete on -->
+      <form method = "post" autocomplete = "on">
+         <p><label>First Name:
+            <input type = "text" id = "firstName" 
+               placeholder = "First name" /> (First name)
+            </label></p>
+         <p><label>Last Name:
+            <input type = "text" id = "lastName" 
+               placeholder = "Last name" /> (Last name)
+            </label></p>
+			 <p><label>
+              Gender:
+              </label>
+			    <select>
+            <option value="">  </option>
+            <option value="Male"> Male </option>
+            <option value="Female"> Female </option>
+            <option value="Not willing to Disclose"> Not willing to Disclose </option>
+          </select></p>
+<p>
+            <label>Date of birth:
+               <input type = "date" /> 
+                  (yyyy-mm-dd)
+            </label>	
+<p>		
+         <p><label>Email:
+            <input type = "email" id = "email" 
+               placeholder = "name@domain.com" /> (name@domain.com)
+            </label></p>
+
+<p><em>Select which appointment type(s) you require :</em><p>
+<br>
+            
+        <input type="checkbox"  >
+              <label> Respiratory system checkup </label><br>
+            
+          <input type="checkbox" >
+              <label > Heart checkup </label> <br>
+           
+            <input type="checkbox"  >
+              <label> Eye checkup </label> <br>
+            
+             <input type="checkbox" >
+              <label > Hearing Test </label><br><br><br>
+			  
+<p><em><label>Comments:</em><br>
+            <textarea name = "comments"
+               rows = "4" cols = "50">If you want to add any Suggestion.</textarea>
+         </label></p>
+
+
+
+         <p><input type = "submit" value = "Submit" />
+            <input type = "reset" value = "Clear" /></p>   
+      </form>
+</div>
+
+   </body>
+</html>
